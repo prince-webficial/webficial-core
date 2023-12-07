@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © Webficial Technologies. All rights reserved.
+  ~ See COPYING.txt for license details.
+  ~ https://webficial.com/ | support@webficial.com
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="webficialsettings" class="webficial-config-tab" translate="label" sortOrder="9000">
+            <label>Webficial</label>
+        </tab>
+    </system>
+</config>

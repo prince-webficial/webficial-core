@@ -1,0 +1,25 @@
+{
+    "name": "webficial/module-core",
+    "description": "Magento 2 Webficial core module",
+    "require": {
+        "php": "~5.6.0|>=7.0.2|~8.0.0|~8.1.0|~8.2.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "webficial Team",
+            "email": "info@webficial.com",
+            "homepage": "https://webficial.com/",
+            "role": "Leader"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webficial\\Core\\": ""
+        }
+    }
+}
